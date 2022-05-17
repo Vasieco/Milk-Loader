@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sdk">
+      <UniqueIdentifier>{e07170ce-e1db-4f9d-b683-c58f02f0ae4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdk\AntiDebug">
+      <UniqueIdentifier>{bde11e2e-30d0-459c-8dad-f6d7ad8c790a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdk\Menu">
+      <UniqueIdentifier>{38fdc982-2ed1-41a1-91ff-0f8702477e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdk\Utils">
+      <UniqueIdentifier>{f0e2a223-61e6-47ee-b6cf-6d3ec26ca036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdk\Cheat">
+      <UniqueIdentifier>{25df3d94-e24c-442c-9c8a-3cac817b574e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdk\Driver">
+      <UniqueIdentifier>{6255918a-c2d4-413d-9e1b-cb73dd0dba9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdk\Auth">
+      <UniqueIdentifier>{a2019a1e-ad65-4383-9ff1-4bfc974472d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sdk\Icon">
+      <UniqueIdentifier>{7a05e876-b027-44e5-ad09-a74348059277}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sdk.hpp">
+      <Filter>Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Antidebug.h">
+      <Filter>Sdk\AntiDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Sdk\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypter.h">
+      <Filter>Sdk\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Sdk\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>Sdk\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat.h">
+      <Filter>Sdk\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>Sdk\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>Sdk\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Sdk\Icon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Sdk\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Antidebug.cpp">
+      <Filter>Sdk\AntiDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Sdk\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Sdk\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat.cpp">
+      <Filter>Sdk\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="login.cpp">
+      <Filter>Sdk\Auth</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>Sdk\Auth</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>Sdk\Auth</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>Sdk\Icon</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Cheat_api.rc">
+      <Filter>Sdk\Icon</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
